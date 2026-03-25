@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
-import { CounterForm } from '@/components/CounterForm';
-import { CurrentCount } from '@/components/CurrentCount';
 import arcjetLogo from '@/public/assets/images/arcjet-light.svg';
 
 export async function generateMetadata(props: {
@@ -26,12 +24,6 @@ export default function Counter() {
 
   return (
     <>
-      <CounterForm />
-
-      <div className="mt-3">
-        <CurrentCount />
-      </div>
-
       <div className="mt-5 text-center text-sm">
         {`${t('security_powered_by')} `}
         <a

@@ -20,11 +20,11 @@
   },
   "Counter": {
     "meta_title": "Counter",
-    "meta_description": "An example of DB operation",
+    "meta_description": "Client-side counter example",
     "security_powered_by": "Security, bot detection and rate limiting powered by"
   },
   "CounterForm": {
-    "presentation": "The counter is stored in the database and incremented by the value you provide.",
+    "presentation": "Increment the counter by the value you provide (stored in the browser session only).",
     "label_increment": "Increment by",
     "button_increment": "Increment",
     "error_increment_range": "Value must be between 1 and 3"
