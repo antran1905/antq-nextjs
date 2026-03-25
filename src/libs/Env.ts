@@ -11,6 +11,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
     NEXT_PUBLIC_POSTHOG_KEY: z.string().optional(),
     NEXT_PUBLIC_POSTHOG_HOST: z.string().optional(),
+    NEXT_PUBLIC_TEST_CODEX: z.string().optional(),
   },
   shared: {
     NODE_ENV: z.enum(['test', 'development', 'production']).optional(),
@@ -23,6 +24,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     NEXT_PUBLIC_POSTHOG_KEY: process.env.NEXT_PUBLIC_POSTHOG_KEY,
     NEXT_PUBLIC_POSTHOG_HOST: process.env.NEXT_PUBLIC_POSTHOG_HOST,
+    NEXT_PUBLIC_TEST_CODEX: process.env.NEXT_PUBLIC_TEST_CODEX,
     NODE_ENV: process.env.NODE_ENV,
   },
 });

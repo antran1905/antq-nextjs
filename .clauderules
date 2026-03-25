@@ -1,0 +1,5 @@
+# SYSTEM RULES
+- Always refer to the rules in `./.cursorrules`.
+- Access specialized workflows in `./cursor/workflows/`.
+- Follow coding standards in `./cursor/skills/`.
+- If I ask for a "Vibe Coding" session, prioritize speed and high-level intent over step-by-step confirmation.

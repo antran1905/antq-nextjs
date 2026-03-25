@@ -1,0 +1,9 @@
+[project]
+name = "antq-nextjs"
+type = "typescript"
+
+[agent]
+instructions_path = "AGENTS.md"
+search_paths = [".agents/skills", ".agents/workflows", "src"]
+
+[mcp]

@@ -56,6 +56,31 @@
     "meta_title": "Se connecter",
     "meta_description": "Connectez-vous à votre compte avec facilité."
   },
+  "LoginPage": {
+    "meta_title": "Connexion",
+    "meta_description": "Connectez-vous à Nextjs Starter pour accéder aux tableaux de bord, aux factures et aux paramètres d'équipe.",
+    "hero_badge": "Accès sécurisé",
+    "hero_title": "Connectez-vous à Nextjs Starter",
+    "hero_description": "Consultez vos tableaux de bord, factures et paramètres avec une protection de niveau entreprise.",
+    "hero_support": "Restez connecté sur tous vos appareils sans compromettre la sécurité.",
+    "feature_one_title": "Authentification zéro confiance",
+    "feature_one_description": "Des règles de session strictes appliquent OTP, clés matérielles et posture d'appareil avant d'autoriser l'accès.",
+    "feature_two_title": "Récupération rapide",
+    "feature_two_description": "Réinitialisez votre mot de passe en un clic et reprenez votre activité sans perdre vos repères.",
+    "feature_three_title": "Contrôles pour équipes",
+    "feature_three_description": "Invitez des collaborateurs, attribuez des rôles et auditez les connexions depuis l'écran de connexion.",
+    "form_heading": "Bon retour",
+    "form_subtitle": "Saisissez vos identifiants pour ouvrir votre session sécurisée.",
+    "form_email_label": "Adresse email",
+    "form_email_placeholder": "vous@exemple.com",
+    "form_password_label": "Mot de passe",
+    "form_password_placeholder": "Au moins 8 caractères",
+    "form_remember_me": "Se souvenir de moi sur cet appareil",
+    "form_forgot_password": "Mot de passe oublié ?",
+    "form_submit": "Connexion sécurisée",
+    "form_cta": "Besoin d'un compte ?",
+    "form_cta_link": "Créer un compte"
+  },
   "SignUp": {
     "meta_title": "S'inscrire",
     "meta_description": "Créez un compte facilement grâce à notre processus d'inscription intuitif."

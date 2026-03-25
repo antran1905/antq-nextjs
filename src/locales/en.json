@@ -56,6 +56,31 @@
     "meta_title": "Sign in",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
+  "LoginPage": {
+    "meta_title": "Login",
+    "meta_description": "Sign in to Nextjs Starter to access dashboards, bills, and team controls.",
+    "hero_badge": "Secure workspace",
+    "hero_title": "Sign in to Nextjs Starter",
+    "hero_description": "Access dashboards, invoices, and controls with enterprise-grade protection.",
+    "hero_support": "Stay signed in across devices without compromising security.",
+    "feature_one_title": "Zero-trust authentication",
+    "feature_one_description": "Session rules enforce OTP, hardware keys, and device posture before granting access.",
+    "feature_two_title": "Fast recovery",
+    "feature_two_description": "Reset passwords with one click and resume work without losing context.",
+    "feature_three_title": "Team-ready controls",
+    "feature_three_description": "Invite teammates, assign roles, and audit logins directly from the login screen.",
+    "form_heading": "Welcome back",
+    "form_subtitle": "Enter your credentials to claim your secure dashboard session.",
+    "form_email_label": "Email address",
+    "form_email_placeholder": "you@example.com",
+    "form_password_label": "Password",
+    "form_password_placeholder": "At least 8 characters",
+    "form_remember_me": "Remember me on this device",
+    "form_forgot_password": "Forgot password?",
+    "form_submit": "Log in securely",
+    "form_cta": "Need an account?",
+    "form_cta_link": "Create one"
+  },
   "SignUp": {
     "meta_title": "Sign up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
