@@ -9,9 +9,6 @@ const baseConfig: NextConfig = {
     position: 'bottom-right',
   },
 
-
-  
-  
   poweredByHeader: false,
   reactStrictMode: true,
   reactCompiler: process.env.NODE_ENV === 'production', // Keep the development environment fast

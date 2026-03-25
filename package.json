@@ -50,6 +50,7 @@
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/prompt-cli": "^20.5.0",
+    "@commitlint/types": "^20.5.0",
     "@electric-sql/pglite-socket": "^0.1.1",
     "@faker-js/faker": "^10.3.0",
     "@lingual/i18n-check": "^0.9.3",

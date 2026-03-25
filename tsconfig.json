@@ -13,6 +13,7 @@
     // Type Safety - Foundation
     // Core type checking settings for a robust codebase
     // ======================================================================
+    "types": ["node"],
     "strict": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
