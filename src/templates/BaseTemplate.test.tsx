@@ -6,9 +6,7 @@ import messages from '@/locales/en.json';
 import { BaseTemplate } from './BaseTemplate';
 
 describe('Base template', () => {
-  des;
-
-  cribe('Render method', () => {
+  describe('Render method', () => {
     it('should have 3 menu items', async () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
