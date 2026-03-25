@@ -2,13 +2,13 @@ import { NextIntlClientProvider } from 'next-intl';
 import { describe, expect, it } from 'vitest';
 import { render } from 'vitest-browser-react';
 import { page } from 'vitest/browser';
-import { de } from 'zod/locales';
 import messages from '@/locales/en.json';
 import { BaseTemplate } from './BaseTemplate';
 
 describe('Base template', () => {
-  de;
-  scribe('Render method', () => {
+  des;
+
+  cribe('Render method', () => {
     it('should have 3 menu items', async () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
