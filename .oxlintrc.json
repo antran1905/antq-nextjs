@@ -1,0 +1,36 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "extends": [
+    "./node_modules/ultracite/config/oxlint/core/.oxlintrc.json",
+    "./node_modules/ultracite/config/oxlint/next/.oxlintrc.json",
+    "./node_modules/ultracite/config/oxlint/react/.oxlintrc.json"
+  ],
+  "rules": {
+    "no-warning-comments": "off",
+    "no-inline-comments": "off",
+    "sort-keys": "off",
+    "func-style": "off",
+    "typescript/no-unsafe-assignment": "off",
+    "typescript/no-unsafe-member-access": "off",
+    "typescript/no-unsafe-call": "off",
+    "typescript/strict-boolean-expressions": "off",
+    "typescript/consistent-type-definitions": "off",
+    "typescript/no-misused-promises": "off",
+    "typescript/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "separate-type-imports"
+      }
+    ],
+    "react-perf/jsx-no-new-function-as-prop": "off",
+    "unicorn/filename-case": "off",
+    "jsdoc/require-param": "error",
+    "jsdoc/require-param-description": "error",
+    "jsdoc/require-returns": "error",
+    "jsdoc/require-returns-description": "error"
+  },
+  "options": {
+    "reportUnusedDisableDirectives": "error"
+  }
+}
