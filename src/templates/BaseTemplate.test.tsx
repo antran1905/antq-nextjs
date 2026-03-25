@@ -2,11 +2,13 @@ import { NextIntlClientProvider } from 'next-intl';
 import { describe, expect, it } from 'vitest';
 import { render } from 'vitest-browser-react';
 import { page } from 'vitest/browser';
+import { de } from 'zod/locales';
 import messages from '@/locales/en.json';
 import { BaseTemplate } from './BaseTemplate';
 
 describe('Base template', () => {
-  describe('Render method', () => {
+  de;
+  scribe('Render method', () => {
     it('should have 3 menu items', async () => {
       await render(
         <NextIntlClientProvider locale="en" messages={messages}>
@@ -45,10 +47,7 @@ describe('Base template', () => {
        * The link doesn't need to appear on every pages, one link on one page is enough.
        * Thank you for your support it'll mean a lot for us.
        */
-      expect(copyrightLink).toHaveAttribute(
-        'href',
-        'https://nextjs-boilerplate.com'
-      );
+      expect(copyrightLink).toHaveAttribute('href', 'https://nextjs-boilerplate.com');
     });
   });
 });
