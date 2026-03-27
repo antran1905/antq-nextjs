@@ -20,7 +20,7 @@
   "tabWidth": 2,
   "trailingComma": "es5",
   "useTabs": false,
-  "ignorePatterns": ["*.md"],
+  "ignorePatterns": ["*.md", "node_modules", ".next", "coverage", "public", "storybook-static"],
   // Sorts utilities (Tailwind v4) and collapses extra spaces in class strings when preserveWhitespace is false.
   "sortTailwindcss": {
     "stylesheet": "src/styles/global.css",

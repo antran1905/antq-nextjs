@@ -5,6 +5,14 @@
     "./node_modules/ultracite/config/oxlint/next/.oxlintrc.json",
     "./node_modules/ultracite/config/oxlint/react/.oxlintrc.json"
   ],
+  "ignorePatterns": [
+    "node_modules",
+    ".next",
+    "coverage",
+    "public",
+    "storybook-static",
+    "*.config.*"
+  ],
   "rules": {
     "no-warning-comments": "off",
     "no-inline-comments": "off",
@@ -23,6 +31,7 @@
         "fixStyle": "separate-type-imports"
       }
     ],
+    "jsx-no-useless-fragment": "off",
     "react-perf/jsx-no-new-function-as-prop": "off",
     "unicorn/filename-case": "off",
     "jsdoc/require-param": "error",
